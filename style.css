@@ -61,6 +61,7 @@ body {
     align-self: flex-start;
     border-bottom: solid 0.5px;
     padding-bottom: 16px;
+    margin-top: 16px;
 }
 
 #introText {
@@ -70,6 +71,7 @@ body {
     border-left: solid 0.5px;
     padding-top: 16px;
     padding-left: 16px;
+    margin-bottom: 16px;
     /* font-size: smaller; */
     /* margin-left: 24px; */
     /* text-align: justify; */
