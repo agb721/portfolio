@@ -19,7 +19,7 @@ body {
 }
 
 .contact {
-    font-size: smaller;
+    /* font-size: smaller; */
     border-bottom: 0.5px solid;
     margin: 0 32px;
     padding: 16px 0;
@@ -38,14 +38,14 @@ body {
 
 .introContent {
     display: flex;
-    width: 525px;
+    /* width: 525px; */
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
 .introTop, .introBottom {
-    width: 525px;
+    max-width: 70vh;
     display: flex;
     justify-content: start;
 }
@@ -56,21 +56,21 @@ body {
 }
 
 #introImg {
-    width: 350px;
+    max-width: 80%;
     height: auto;
     align-self: flex-start;
     border-bottom: solid 0.5px;
-    padding-bottom: 8px;
+    padding-bottom: 16px;
 }
 
 #introText {
-    max-width: 350px;
-    min-width: 250px;
+    max-width: 70%;
+    /* min-width: 250px; */
     align-self: flex-end;
     border-left: solid 0.5px;
-    padding-top: 8px;
-    padding-left: 8px;
-    font-size: smaller;
+    padding-top: 16px;
+    padding-left: 16px;
+    /* font-size: smaller; */
     /* margin-left: 24px; */
     /* text-align: justify; */
 }
@@ -78,11 +78,11 @@ body {
 #landingFooter {
     display: flex;
     justify-content: center;
-    margin-top: 32px;
+    margin-top: 16px;
     margin-left: 32px;
     margin-right: 32px;
     text-align: center;
-    font-size: smaller;
+    /* font-size: smaller; */
     border-top: 0.5px solid;
     border-bottom: 0.5px solid;
     padding: 16px 0px;
@@ -142,6 +142,9 @@ ul {
     text-align: center;
 }
 
+.sectionHeader {
+    margin-top: 32px;
+}
 .cvSection.education {
     padding-left: 2em;
 }
