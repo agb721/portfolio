@@ -1,0 +1,261 @@
+
+body {
+    font-family: optima;
+    margin: 0px;
+}
+
+.landingScreen {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+}
+
+.navbar {
+    background-color: white;
+    z-index: 1100;
+    position: fixed;
+    width: 100%;
+}
+
+.contact {
+    font-size: smaller;
+    border-bottom: 0.5px solid;
+    margin: 0 32px;
+    padding: 16px 0;
+    overflow: visible;
+}
+
+.spaceholder {
+    height: 2em;
+    margin: 32px;
+}
+
+.introCenter {
+    display: flex;
+    justify-content: center;
+}
+
+.introContent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#introImg {
+    width: 420px;
+    height: auto;
+}
+
+#introText {
+    max-width: 350px;
+    min-width: 250px;
+    margin-left: 24px;
+    /* text-align: justify; */
+}
+
+#landingFooter {
+    display: flex;
+    justify-content: center;
+    margin-top: 32px;
+    margin-left: 32px;
+    margin-right: 32px;
+    text-align: center;
+    font-size: smaller;
+    border-top: 0.5px solid;
+    border-bottom: 0.5px solid;
+    padding: 16px 0px;
+}
+
+.cvHeader {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 32px;
+    margin-left: 32px;
+    margin-right: 32px;
+    text-align: center;
+    border-top: 0.5px solid;
+    border-bottom: 0.5px solid;
+    padding: 16px 0px;
+}
+
+.cvHeaderText {
+    font-size: x-large;
+    font-weight: bold;
+}
+
+
+.skillsContainer {
+    display: flex;
+    gap: 32px;
+    padding: 0 2em;
+}
+
+ul {
+    list-style-type: circle; 
+}
+
+.categoryListing.skill {
+    font-size: smaller;
+}
+
+.sectionCategory {
+    font-weight: bold;
+}
+
+.CV {
+    display: flex;
+    justify-content: center;
+}
+
+.cvContainer {
+    max-width: 110ch;
+}
+
+.note {
+    font-size: smaller;
+    justify-self: end;
+    color: lightgrey;
+    text-align: center;
+}
+
+.cvSection.education {
+    padding-left: 2em;
+}
+
+.cvSection.paidWork {
+    padding-left: 2em;
+}
+
+details {
+    margin-left: 2em;
+}
+
+/* summary {
+    margin-left: 2em;
+} */
+
+/* li {
+    margin-left: inherit;
+} */
+
+.galleryContainer {
+    display: flex;
+    display: none;
+    justify-content: center;
+}
+
+/* Thanks to Medium article & code by Tim Wells: https://archive.ph/2P0VW#selection-1075.0-1075.24 */
+#gallery {
+    /* text-align: center; */
+    line-height:0;
+    -webkit-column-count:5; /* split it into 5 columns */
+    -webkit-column-gap:5px; /* give it a 5px gap between columns */
+    -moz-column-count:5;
+    -moz-column-gap:5px;
+    /* margin: 0 32px; */
+    column-count: 5;
+    column-gap:5px;
+    padding: 0 32px;
+ }
+
+ @media (max-width: 1200px) {
+    #gallery {
+     -moz-column-count:    4;
+     -webkit-column-count: 4;
+     column-count:         4;
+    }
+ }
+
+ @media (max-width: 1000px) {
+    #gallery {
+     -moz-column-count:    3;
+     -webkit-column-count: 3;
+     column-count:         3;
+    }
+ }
+
+ @media (max-width: 800px) {
+    #gallery {
+     -moz-column-count:    2;
+     -webkit-column-count: 2;
+     column-count:         2;
+    }
+ }
+
+ @media (max-width: 400px) {
+    #gallery {
+     -moz-column-count:    1;
+     -webkit-column-count: 1;
+     column-count:         1;
+    }
+ }
+
+ #gallery img {
+    width: 100% !important;
+    height: auto !important;
+    margin-bottom:5px; /* to match column gap */
+    filter: grayscale(100%);
+    transition: filter 0.5s;
+ }
+ 
+ #gallery img:hover {
+    filter:none;
+ }
+
+.cardSection {
+    margin: 0 32px;
+}
+
+.cards-container {
+    display: flex;
+    gap: 25px;
+    margin: 0 100px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.card {
+    width: 250px;
+    
+}
+
+.cardImgContainer {
+    display: flex;
+    height: 368px;
+    overflow: hidden;
+    align-items: end;
+    margin: 32px 0;
+
+
+}
+
+.cardImg {
+    width: 100%;
+    object-fit: contain;
+    /* border-radius: 8px; */
+}
+
+/* #gallery .cardImg:hover {
+    filter:none;
+ } */
+
+.card:hover {
+    filter: opacity(50%);
+ }
+
+.cardTitle {
+    font-size: larger;
+    font-weight: bold;
+    margin: 16px 0;
+}
+
+
+.cardSubtext {
+    margin: 8px 0;
+}
+
+
+
