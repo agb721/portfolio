@@ -295,6 +295,7 @@ a {
 
 a.cv {
     text-decoration: underline;
+    color: inherit;
 }
 
 .cardSubtext {
