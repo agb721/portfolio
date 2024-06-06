@@ -43,6 +43,16 @@ body {
     justify-content: center;
 }
 
+#landingHeader{
+    margin-top: 0px;
+    /* text-align: center; */
+}
+
+.codeSmall {
+    display: none;
+    font-size: smaller;
+    color: grey;
+}
 
 
 
