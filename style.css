@@ -49,7 +49,7 @@ body {
 }
 
 .codeSmall {
-    display: none;
+    /* display: none; */
     font-size: smaller;
     color: grey;
 }
