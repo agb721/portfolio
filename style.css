@@ -12,33 +12,51 @@ body {
 }
 
 .navbar {
-    background-color: white;
-    z-index: 1100;
-    position: fixed;
-    width: 100%;
+    /* background-color: white; */
+    /* z-index: 1100; */
+    /* position: fixed; */
+    /* width: 100%; */
+    border-bottom: 0.5px solid;
+    margin: 0 32px;
+    /* padding: 16px 0; */
 }
 
-.spaceholder {
-    margin: 0 32px;
-    padding: 16px 0;
+.navbar-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
+
 
 .contact {
     /* font-size: smaller; */
-    border-bottom: 0.5px solid;
-    margin: 0 32px;
-    padding: 16px 0;
-    overflow: visible;
+
 }
 
-.spaceholder {
-    height: 2em;
-    margin: 32px;
+.blog-link {
+    /* font-size: smaller; */
 }
+
+
+#landingCenter {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+/* .spaceholder {
+    margin: 32px;
+    padding: 16px 0;
+    height: 2em;
+} */
 
 .introCenter {
     display: flex;
     justify-content: center;
+    align-items: center;
+    margin: 32px;
 }
 
 .introContent {
@@ -46,11 +64,12 @@ body {
     /* width: 525px; */
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    /* align-items: center; */
+    margin: 32px;
 }
 
 .introTop, .introBottom {
-    max-width: 70vh;
+    /* max-width: 70vw; */
     display: flex;
     justify-content: start;
 }
@@ -61,40 +80,45 @@ body {
 }
 
 #introImg {
-    max-width: 80%;
-    height: auto;
+    max-width: 50vw;
+    max-height: 300px;
+    /* height: auto; */
     align-self: flex-start;
     border-bottom: solid 0.5px;
     padding-bottom: 16px;
-    margin-top: 16px;
+    /* margin-top: 16px; */
+}
+
+#bottom-left {
+    flex-grow: 1;
+    flex-shrink: 1;
 }
 
 #introText {
     overflow: hidden;
     max-width: 70%;
-    /* min-width: 250px; */
+    max-width: 75ch;
     align-self: flex-end;
     border-left: solid 0.5px;
     padding-top: 16px;
     padding-left: 16px;
-    margin-bottom: 16px;
-    /* font-size: smaller; */
-    /* margin-left: 24px; */
-    /* text-align: justify; */
+    flex-grow: 4;
+    flex-shrink: 4;
 }
 
 #landingFooter {
-    display: flex;
+    /* display: flex;
     justify-content: center;
     margin-top: 16px;
     margin-left: 32px;
     margin-right: 32px;
-    text-align: center;
     /* font-size: smaller; */
+    text-align: center;
     border-top: 0.5px solid;
-    border-bottom: 0.5px solid;
+    /* border-bottom: 0.5px solid; */
     padding: 16px 0px;
 }
+
 
 .cvHeader {
     display: flex;

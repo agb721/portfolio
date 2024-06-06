@@ -1,0 +1,25 @@
+
+body {
+    font-family: optima;
+    /* margin-top: 10vh;
+    margin-left: 5vw; */
+}
+
+ul {
+    margin-top: 32px;
+}
+
+li {
+    line-height: 1.5;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.blog-intro {
+    /* margin-top: 10vh;
+    margin-left: 5vw; */
+    max-width: 75ch;
+}
