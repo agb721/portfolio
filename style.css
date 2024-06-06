@@ -39,6 +39,7 @@ body {
 
 
 #landingCenter {
+    margin: 32px;
     display: flex;
     justify-content: center;
 }
