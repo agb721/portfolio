@@ -4,11 +4,6 @@ body {
     margin: 0px;
 }
 
-a {
-    text-decoration: none;
-    color: inherit;
-}
-
 .landingScreen {
     display: flex;
     flex-direction: column;
@@ -30,10 +25,6 @@ a {
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
-
-.navbar-links.geekBlog {
-    gap: 16px;
 }
 
 
@@ -225,39 +216,40 @@ details {
 
 
 
-/* CARDS SECTION */
+/* CARD SECTION */
 .cardSection {
-    display: none;
+    display: flex;
     margin: 0 32px;
 }
 
 
 .cards-container {
-    /* display: flex;
+    display: flex;
     gap: 25px;
     margin: 0 100px;
     flex-wrap: wrap;
-    justify-content: space-between; */
+    justify-content: space-between;
 }
 
 .card {
-    /* width: 250px; */
+    width: 250px;
     
 }
 
 .cardImgContainer {
-    /* display: flex;
+    display: flex;
     height: 368px;
     overflow: hidden;
     align-items: end;
-    margin: 32px 0; */
+    margin: 32px 0;
 
 
 }
 
 .cardImg {
-    /* width: 100%;
-    object-fit: contain; */
+    width: 100%;
+    object-fit: contain;
+    /* border-radius: 8px; */
 }
 
 
@@ -266,36 +258,36 @@ details {
  }
 
 .cardTitle {
-    /* font-size: larger;
+    font-size: larger;
     font-weight: bold;
-    margin: 16px 0; */
+    margin: 16px 0;
 }
 
 a { 
-    /* color: inherit; 
-    text-decoration: none; */
+    color: inherit; 
+    text-decoration: none;
 } 
 
 a.cv {
-    /* text-decoration: underline;
-    color: inherit; */
+    text-decoration: underline;
+    color: inherit;
 }
 
 .cardSubtext {
-    /* margin: 8px 0; */
+    margin: 8px 0;
 }
 
 
 .moreInfo {
-    /* text-align: center;
-    font-size: smaller; */
+    text-align: center;
+    font-size: smaller;
 }
 
 span {
-    /* float: right;
+    float: right;
     padding-right: 32px;
     font-weight: lighter;
-    color: darkgray; */
+    color: darkgray;
 }
 
 
@@ -357,7 +349,7 @@ span {
     width: 100% !important;
     height: auto !important;
     margin-bottom:5px; /* to match column gap */
-    /* filter: grayscale(100%); */
+    filter: grayscale(100%);
     transition: filter 0.5s;
  }
  

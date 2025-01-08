@@ -4,6 +4,7 @@ body {
     max-width: 75ch;
     /* margin-top: 10vh;
     margin-left: 5vw; */
+    padding: 28px;
 }
 
 ul {

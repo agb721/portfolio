@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+    font-family: optima;
+}
+
+hr {
+    border:none;
+}
+
+#landingLife {
+    display: flex;
+    flex-direction: column;
+    background-image: url("./images/DSC00237.JPG");
+    background-position: center;
+    background-size: cover;
+    height: 80vh;
+    justify-content: space-between;
+    padding: 5vw 6vw;
+}
+
+.welcome {
+    color: white;
+    font-size: 110px;
+    font-weight: normal;
+}
+
+.welcomeNote {
+    font-size: 16px;
+    padding: 16px 32px;
+}
+
+.welcomeNoteContainer {
+    display: flex;
+    justify-content: space-between;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.current {
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    font-size: 32px;
+    padding-bottom: 1vw;
+}

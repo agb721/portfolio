@@ -4,14 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style_copy.css">
 </head>
 <body>
     <div class="landingScreen">
         <div class="navbar">
             <div class="navbar-links">
                 <p class="contact">contact: <br> andreas.greiler.b[at]gmail.com</p>
-                <p class="blog-link"> <a href="./blog/blog-landing.html">Blog</a></p>
+                <div class="navbar-links geekBlog">
+                    <p class="geekZone-link"> <a href="./life/life.html">Geek Zone [WIP] &nbsp;</a></p>| 
+                    <p class="blog-link"> <a href="./blog/blog-landing.html">&nbsp; Blog</a></p>
+                </div>
             </div>
         </div>
             <!-- first div is for spreading0out purposes -->
@@ -44,13 +47,22 @@
 
     <div class="cardSection">
         <div class="cards-container">
+            <a href="https://ergoposeai.com">
+                <div class="card">
+                    <div class="cardImgContainer" >
+                        <img class="cardImg" src="images/climber_overlay.png" alt="climber_overlay">
+                    </div>
+                    <div class="cardTitle">ErgoPoseAI</div>
+                    <div class="cardSubtext">Suite of computer vision-based posture analysis programs. Current use cases include automated posture analysis reports for laparoscopic surgery practice and movement sonification features using SuperCollider</div>
+                </div>
+            </a>
             <a href="https://rundgang.udk-berlin.de/en/projects/!lHdyqhMprhuNkqPUJg:content.udk-berlin.de">
                 <div class="card">
                     <div class="cardImgContainer" >
                         <img class="cardImg" src="images/kolmogorov0.jpeg" alt="kolmogorov0">
                     </div>
                     <div class="cardTitle">Kolmogorov Curvature</div>
-                    <div class="cardSubtext">Interactive audio-visual installation establishing a correspondence between visual complexity and sound</div>
+                    <div class="cardSubtext">Interactive audio-visual installation establishing a correspondence between visual complexity and sound. Featured in UdK's Rundgang Expo 2023</div>
                 </div>
             </a>
             <a href="https://www.newpractice.net/loops-archive">
@@ -77,7 +89,7 @@
                         <img class="cardImg" src="images/S4CD.jpeg" alt="S4CD">
                     </div>
                     <div class="cardTitle">Media Strategy for S4CD</div>
-                    <div class="cardSubtext">Led the [0 to 1] media strategy for a startup-turned-NGO that is aiming to promote climate policy among an unlikely audience: the conservative Right</div>
+                    <div class="cardSubtext">Led the [0 to 1] media strategy for a startup-turned-NGO that is aiming to promote climate policy among an unlikely audience: the conservative Right. Featured in the NYT, Reuters and more</div>
                 </div>
             </a>
             <a href="https://www.udk-berlin.de/studium/architektur/fachgebiete/konstruktives-entwerfen-und-tragwerksplanung/aktuelles/weeknotes/21-sose-weeknote-7/">
@@ -96,22 +108,6 @@
                 <div class="cardTitle">Micro Photography</div>
                 <div class="cardSubtext">Making small things big; micro-photography focused on botany and biology, alongside research on seed diaspores and structural color</div>
             </div>
-            <div class="card">
-                <div class="cardImgContainer">
-                    <img class="cardImg" src="images/POM0.JPG" alt="POM0">
-                </div>
-                <div class="cardTitle">5:41</div>
-                <div class="cardSubtext">Intervention project exploring the physiological patterns of the average 5h 41min spent at a desk</div>
-            </div>
-            <a href="files/writing_samples_onordered.pdf">
-                <div class="card">
-                    <div class="cardImgContainer">
-                        <img class="cardImg" src="images/writing_long.png" alt="chinese_essay">
-                    </div>
-                    <div class="cardTitle">Essays</div>
-                    <div class="cardSubtext">Collection of recreational writing samples in English, German, Spanish and Mandarin Chinese</div>
-                </div>
-            </a>
             <a href="https://mango-bold-watercress.glitch.me/">
                 <div class="card">
                     <div class="cardImgContainer">
@@ -133,10 +129,35 @@
         </div>
     </div>
 
-    <!-- Thanks to Medium article & code by Tim Wells: https://archive.ph/2P0VW#selection-1075.0-1075.24 -->
-    <div class="galleryContainer">
-        <div id="gallery">
-            <img src="images/lostincompression0.png">
+
+
+
+
+
+            
+            <!-- <div class="project">
+                <div class="cardImgContainer">
+                    <img class="projectImg" src="images/lostincompression0.png">
+                </div>
+                <div class="projectTitle">Radio Goyo</div>
+                <div class="projectSubtext">Mixed, edited and contributed [a digital audio synthesis performance] for experimental radio shows featuring poems, sound-based performances, and field recordings. Streamed on Archipel Radio (88,4 FM) in Berlin</div>
+            </div>
+            <div>
+                <div>
+                    <img src="images/lostincompression0.png">
+                </div>
+                <div>
+                    Mixed, edited and contributed [a digital audio synthesis performance] for experimental radio shows featuring poem
+                </div>
+            </div>
+            <div>
+                <div>
+                    <img src="images/kolmogorov0.jpeg" alt="kolmogorov0">
+                </div>
+                <div>
+                    Mixed, edited and contributed [a digital audio synthesis performance] for experimental radio shows featuring poem
+                </div>
+            </div>
             <img src="images/kolmogorov0.jpeg" alt="kolmogorov0">
             <img src="images/outoftouch0.png" alt="outoftouch0">
             <img src="images/POM0.JPG" alt="POM0">
@@ -147,11 +168,8 @@
             <img src="images/asteroids0.png" alt="asteroids0">
             <img src="images/guitar0.jpg" alt="guitar0">
             <img src="images/commercial0.jpg" alt="commercial0">
-            <img src="images/curve.jpg" alt="curve">
+            <img src="images/curve.jpg" alt="curve"> -->
 
-            <!-- <img src="images/kolmogorov0.jpeg" alt="kolmogorov0">
-            <img src="images/dandelion0.jpg" alt="dandelion0">
-            <img src="images/outoftouch0.png" alt="outoftouch0"> -->
         </div>    
     </div>
 
@@ -235,8 +253,11 @@
 
         <p class="sectionHeader">PAID WORK</p>
         <div class="cvSection paidWork">
+            <p class="sectionCategory">Founder | ErgoPoseAI [pre-launch site: <a href="https://ergoposeai.com">ergoposeai.com</a>] <span class="date">2024 - present</span></p>
+            <p class="categoryListing">After undergoing a hernia surgery and talking to my surgeons, I developed an AI-powered posture-analysis software that uses computer vision to help surgeons train healthy posture for surgeries and prevent incapacitation due to long-term injury. Now expanding capabilities to applications in bouldering and physiotherapy</p>
+
             <p class="sectionCategory">Part-time Web Dev, Personal Tutor & Facilitator [remote, now while on sabbatical in CDMX] <span class="date">2021 - 2024</span></p>
-            <p class="categoryListing">Build custom static websites for political inititatives. Teach courses for German [A1- up to the C1-level, incluiding PhD applications to German universities]; facilitate cross-institutional communication between Chinese, German & US educational institutions, e.g. Beijing Liuyin Academy, Princeton & FU Berlin</p>
+            <p class="categoryListing">Build custom static websites for political inititatives and products. Teach courses for German [A1- up to the C1-level, incluiding PhD applications to German universities]; facilitate cross-institutional communication between Chinese, German & US educational institutions, e.g. Beijing Liuyin Academy, Princeton & FU Berlin</p>
 
             <p class="sectionCategory">Specialty Consulting & Product Management, Fall 2021 | Boston Consulting Group / BCG X <span class="date">Sept - Nov 2021</span></p>
             <p class="categoryListing">Sole PM intern in cohort, staffed on two ventures over three months. One in climate VC, one in the donation & development space.</p>
@@ -304,7 +325,8 @@
 
         </div>
     </div>
-    
+
+
 
 </body>
 </html>
